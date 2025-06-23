@@ -17,18 +17,21 @@ The goal of this project is to demonstrate my QA skills in **automated testing**
 
 ```
 qa-automation-practice/
+
+├── data/                  # Types of users to positive and negative tests cases
+│   ├── users.json
 ├── tests/                  # Automated tests (e.g. Playwright files)
 │   ├── login.spec.js
-│   ├── singin.spec.js
-│   └── ...
-├── docs/                       # Documentation files
-│   ├── test-cases.md           # Automation test cases
-│   ├── exploratory-notes.md    # Exploratory testing notes   
-│   ├── bugs-found.md           # List of bugs found
-│   └── screenshots/            # Screenshots for visual proof
-├── README.md                   # Main project overview
-├── package.json                # Project config
+│   ├── signin.spec.js
+│   
+├── pages/                      # Page Objetct Model classes
+│   ├── LandingPage.ts          
+│   ├── SignInPage.ts             
+│ 
+├── package-lock.json           # Project config
+├── package.json                # Project config  
 └── playwright.config.js        # Playwright settings
+├── README.md                   # Main project overview
 
 
 Suace is a demo e-commerce: https://sauce-demo.myshopify.com/
